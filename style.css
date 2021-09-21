@@ -1,0 +1,31 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Holtwood One SC', serif;
+}
+
+.red-background {
+    display: block;
+    background-color: red;
+    height: 100vh;
+}
+
+.green-background {
+    display: block;
+    background-color: green;
+    height: 100vh;
+}
+
+.yellow-background {
+    display: block;
+    background-color: yellow;
+    height: 100vh;
+}
+
+.red-background .first-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: -50% -50%;
+}
