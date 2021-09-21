@@ -23,9 +23,16 @@
     height: 100vh;
 }
 
-.red-background .first-img {
+.content1 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: -50% -50%;
+    transform: translate(-50%, -50%);
+}
+
+.content2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
